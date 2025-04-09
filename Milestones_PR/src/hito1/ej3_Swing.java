@@ -28,7 +28,7 @@ public class ej3_Swing {
         JRadioButton[] radios = new JRadioButton[3];
         ButtonGroup grupoRadios = new ButtonGroup();
         for (int i = 0; i < radios.length; i++) {
-            radios[i] = new JRadioButton("OPT " + (i + 1));
+            radios[i] = new JRadioButton("OPT" + (i + 1));
             grupoRadios.add(radios[i]);
             panelRadios.add(radios[i]);
         }
